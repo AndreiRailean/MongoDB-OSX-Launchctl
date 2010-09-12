@@ -2,6 +2,10 @@
 
 # MongoDB OSX Launchctl Item
 # Author: Andrei Railean (http://andrei.md)
+if [[ `whoami` != "root" ]]; then
+  echo "This script must be run as root; use sudo"
+  exit
+fi
 
 echo "Installing MongoDB Launchctl Item and Restarting Mongo";
 
