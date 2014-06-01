@@ -27,7 +27,7 @@ Install/Reinstall Launchctl Item:
     sudo launchctl stop org.mongo.mongod
     sudo launchctl unload /System/Library/LaunchDaemons/org.mongo.mongod.plist
     sudo launchctl load /System/Library/LaunchDaemons/org.mongo.mongod.plist
-    sudo launchctl start org.mongo.mongod`
+    sudo launchctl start org.mongo.mongod
 
 Install Script
 ---
