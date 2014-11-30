@@ -1,3 +1,10 @@
+UNMAINTAINED
+==
+
+this code is severely outdated.
+use `brew install mongo` and follow instructions for launch options
+
+
 MongoDB OSX Snow Leopard Launchctl Item
 ===
 Configure MongoDB to start when Mac OSX system boots.
